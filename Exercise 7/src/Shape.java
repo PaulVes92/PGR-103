@@ -13,16 +13,16 @@ public class Shape {
         this.filled = filled;
     }
 
-    public getColor(){
-        return String;
+    public String getColor(){
+        return color;
     }
 
     public void setColor(String color) {
         this.color = color;
     }
 
-    public isFilled(){
-        return boolean;
+    public String isFilled(){
+        return filled;
     }
 
     public void setFilled(boolean filled) {
