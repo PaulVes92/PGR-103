@@ -21,7 +21,7 @@ public class Shape {
         this.color = color;
     }
 
-    public String isFilled(){
+    public boolean isFilled(){
         return filled;
     }
 
