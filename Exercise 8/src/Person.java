@@ -1,7 +1,10 @@
 public class Person {
 
-    String name;
-    String address;
+    private String name;
+    private String address;
+
+    Person(){
+    }
 
     Person(String name, String address){
         this.name = name;
