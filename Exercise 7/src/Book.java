@@ -47,18 +47,18 @@ public class Book {
     }
 
     public String getAuthorName(){
-        return Author.getName();
+        return author.getName();
     }
 
     public String getAuthorEmail(){
-        return Author.getEmail();
+        return author.getEmail();
     }
 
-    public String getAuthorGender(){
-        return Author.getGender();
+    public char getAuthorGender(){
+        return author.getGender();
     }
 
-    public string toString(){
-        return "Book[name=" + name + author.toString() + ", price= " ]"
+    public String toString(){
+        return "Book[name=" + name + author.toString() + ", price= "+price+",qty="+qty+"]";
     }
 }
